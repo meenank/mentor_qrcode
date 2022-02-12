@@ -1,10 +1,14 @@
+/* font importing and application */
+
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
 body {
     font-family: 'Outfit', sans-serif;
+    background-color: hsl(212, 45%, 89%)
 }
 
 .qrcard {
     /* border: 2px solid red; */
+    background-color: hsl(0, 0%, 100%);
     max-width: 25%;
     text-align: center;
     border-radius: 1rem;
@@ -23,11 +27,12 @@ body {
 }
 
 .qrcard .main {
-    margin: 1rem auto;
+    margin: 0rem auto;
     width: 80%;
     font-size: 1.6em;
     font-weight: bold;
     padding-top: 0.6rem;
+    color: hsl(218, 44%, 22%);
 }
 
 .qrcard .desc {
